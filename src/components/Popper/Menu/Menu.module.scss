@@ -1,0 +1,73 @@
+//menu wrapper
+.menu-list {
+    width: 224px;
+    margin-right: -22px;
+    position: relative;
+
+    //tạo hình mũi tên
+    /*&::before {
+        content: '';
+        position: absolute;
+        border-width: 25px 17px;
+        border-style: solid;
+        top: -35px;
+        right: 6px;
+        border-color: transparent transparent #fff transparent;
+        cursor: pointer;
+    }*/
+
+    .separate {
+        border-top: 1px solid rgba(22, 24, 35, 0.12);
+    }
+
+    .menu-item {
+        margin-left: 0;
+        background-color: transparent;
+    }
+}
+
+.menu-popper {
+    padding-bottom: 8px;
+}
+
+.menu-body {
+    overflow-y: auto;
+}
+
+.menu-item {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    line-height: 2.2;
+    padding-left: 8px;
+    font-weight: 500;
+
+    &:hover {
+        background: rgba(22, 24, 35, 0.03);
+        cursor: pointer;
+    }
+}
+
+//header-menu
+.header {
+    position: relative;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.back-btn {
+    width: 50px;
+    height: 100%;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.header-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 600;
+    font-size: 16px;
+    transform: translate(-50%, -50%);
+}

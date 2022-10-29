@@ -1,0 +1,52 @@
+.wrapper {
+    display: flex;
+    margin-top: 12px;
+    padding: 9px 16px;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    flex: 3;
+    &:hover {
+        background: rgba(22, 24, 35, 0.03);
+    }
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+    border-radius: 50%;
+    object-fit: cover; //giữ đúng tỉ lệ
+}
+
+.infor {
+    flex: 1;
+    margin-left: 12px;
+}
+
+.name {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.username {
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(22, 24, 35, 0.5);
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.check-icon {
+    margin-left: 5px;
+    font-size: 1.6rem;
+    line-height: 22px;
+    font-weight: 600;
+    color: rgb(32, 213, 236);
+}

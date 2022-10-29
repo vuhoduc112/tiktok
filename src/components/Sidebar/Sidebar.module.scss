@@ -1,0 +1,30 @@
+.wrapper {
+    width: 352px;
+    min-height: auto;
+}
+
+.footer {
+    display: flex;
+    min-height: 300px;
+    flex-wrap: wrap;
+    border-top: 1px solid rgba(22, 24, 35, 0.12);
+    padding: 24px 0px 24px 0px;
+    margin-bottom: 8px;
+}
+
+.link-footer {
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 17px;
+    margin-right: 6px;
+    margin-top: 5px;
+    color: rgba(22, 24, 35, 0.5);
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.text-footer {
+}

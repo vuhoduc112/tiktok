@@ -1,0 +1,28 @@
+.wrapper {
+    border-top: 1px solid rgba(22, 24, 35, 0.12);
+    padding: 12px 0px 12px 0px;
+}
+
+.label {
+    padding: 0 8px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(22, 24, 35, 0.75);
+    font-weight: 600;
+}
+
+Button {
+    margin: 0px 4px 12px 0px !important;
+}
+
+.icon-hastag {
+    color: rgba(22, 24, 35, 1);
+}
+
+.content {
+    color: rgba(22, 24, 35, 1);
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-left: 6px;
+}

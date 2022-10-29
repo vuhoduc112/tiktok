@@ -1,0 +1,127 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.heading-home {
+    display: flex;
+    border-bottom: 1px solid rgba(22, 24, 35, 0.12);
+    padding: 12px 0px 12px 0px;
+    justify-content: space-between;
+}
+
+.homehome {
+    display: flex;
+    align-items: flex-start;
+}
+
+.avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 9999px;
+    object-fit: cover;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+.nickname {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-right: 4px;
+    color: rgba(22, 24, 35, 1);
+}
+
+.text {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: rgba(22, 24, 35, 1);
+}
+
+.hastag {
+}
+
+.music {
+    display: flex;
+    align-items: center;
+}
+
+.text-music {
+    margin-left: 8px;
+    text-decoration: none;
+    color: rgba(22, 24, 35, 1);
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.container-home {
+    display: flex;
+    align-items: flex-end;
+}
+
+.video-home {
+    margin-top: 12px;
+    margin-right: 20px;
+}
+
+.video {
+    border-radius: 8px;
+}
+
+.icon-home {
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(22, 24, 35, 0.06);
+    width: 48px;
+    height: 48px;
+    border-radius: 9999px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.tym-icon {
+    font-size: 2.2rem;
+}
+
+.tym-text {
+    color: rgba(22, 24, 35, 0.75);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.comment-icon {
+    font-size: 2.2rem;
+}
+
+.comment-text {
+    color: rgba(22, 24, 35, 0.75);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.share-icon {
+    font-size: 2.2rem;
+}
+
+.share-text {
+    color: rgba(22, 24, 35, 0.75);
+    font-size: 1.2rem;
+    text-align: center;
+}
